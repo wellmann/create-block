@@ -18,10 +18,6 @@ const utils = require('./utils');
 try {
   const cwd = process.cwd();
 
-  if (!fs.existsSync(cwd + '/src/blocks')) {
-    throw new Error('This can only be run in Gutenberg Blocks plugin context.');
-  }
-
   if (!process.argv[2]) {
     throw new Error('Please specify the blocks name.');
   }

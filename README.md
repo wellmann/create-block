@@ -8,7 +8,7 @@ Node.js CLI script to create Gutenberg blocks for [kwio/gutenberg-blocks](https:
 
 
 ## Creating custom blocks
-To create custom blocks run `npx github:wellmann/create-block <name>`. The blocks folder will be created in `src/blocks/<name>` along with the required files and boilerplate code. 
+To create custom blocks run `npx github:wellmann/create-block <name>`. The blocks folder will be created in `src/<name>` along with the required files and boilerplate code. 
 
 | Flag | Alias | Description |
 | :--- | :--- | :--- |
